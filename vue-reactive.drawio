@@ -1,14 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T07:49:54.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.0" etag="eh8s--_z8JGs9pARRk3b" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T08:34:08.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.0" etag="iihcFMqA9BcBPHE4sJhC" type="github">
   <diagram id="eqqy_uy_LeneaCy91ZMb" name="第 1 页">
-    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FTafoVnuadPtctk5Pe53-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="200" width="120" height="80" as="geometry" />
+        <mxCell id="FTafoVnuadPtctk5Pe53-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-340" width="760" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="FTafoVnuadPtctk5Pe53-2" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="330" width="190" height="120" as="geometry" />
+        <mxCell id="FTafoVnuadPtctk5Pe53-6" value="class Observer(value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="294" y="110" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-8" target="FTafoVnuadPtctk5Pe53-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-8" value="this.dep = new Dep()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="294" y="190" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-11" target="FTafoVnuadPtctk5Pe53-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-11" target="FTafoVnuadPtctk5Pe53-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-11" value="isArray(value)?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="327" y="280" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-14" target="FTafoVnuadPtctk5Pe53-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-14" value="value.__proto__ = arrayMethods" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-18" target="FTafoVnuadPtctk5Pe53-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="270" />
+              <mxPoint x="900" y="270" />
+              <mxPoint x="900" y="440" />
+              <mxPoint x="1070" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-18" value="for key in Object.keys(value):&lt;br&gt;defineReactive(value, key, {})" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="FTafoVnuadPtctk5Pe53-21" target="FTafoVnuadPtctk5Pe53-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-21" value="for(let i = 0; i &amp;lt; value.length;i ++):&lt;br&gt;observe(value[i])" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-22" value="new Observer(value)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-25" value="&lt;b&gt;class Dep&lt;/b&gt;:&lt;br&gt;static target&lt;br&gt;this.id = uid++&lt;br&gt;this.subs = []" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-300" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-26" value="&lt;b&gt;addSub(sub):&lt;br&gt;&lt;/b&gt;this.subs.push(sub)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-170" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-27" value="&lt;b&gt;removeSub(sub):&lt;br&gt;&lt;/b&gt;this.subs[this.subs.indexOf(sub)] = null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-100" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-28" value="&lt;b&gt;depend():&lt;/b&gt;&lt;br&gt;Dep.target &amp;amp;&amp;amp; Dep.targer.addDep(this)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-30" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-29" value="&lt;b&gt;notify():&lt;/b&gt;&lt;br&gt;this.subs.forEach(sub=&amp;gt;sub.update())" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-30" value="&lt;b&gt;targetStack = []&lt;/b&gt;&lt;br&gt;&lt;b&gt;pushTarget(target):&lt;br&gt;&lt;/b&gt;targetStack.push(target)&lt;br&gt;Dep.target = target" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-100" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-31" value="&lt;br&gt;&lt;b&gt;pushTarget(target):&lt;br&gt;&lt;/b&gt;targetStack.pop()&lt;br&gt;Dep.target = targetStack[targetStack.length - 1]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="10" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-46" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1150" y="235" width="340" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry width="340" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-36" value="defineReactive(obj, key, defaulrVal)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-37" value="const dep&amp;nbsp; = new Dep()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="80" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-38" value="Object.defineProperty(obj, key)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="200" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-40" value="observe(obj[key])" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="140" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-41" value="get: dep.depend()&lt;br&gt;return val" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTafoVnuadPtctk5Pe53-42" value="set(newVal):&lt;br&gt;val = newVal&lt;br&gt;dep.notify()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="FTafoVnuadPtctk5Pe53-46">
+          <mxGeometry x="40" y="325" width="250" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
