@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T12:52:28.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aAJNZcqoAx0BrdmfqJB8" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T13:32:20.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wYUmgkUdrHzr8nqE-X3c" version="20.8.20" type="github">
   <diagram name="第 1 页" id="_LmHi21ieHVFVFbyD48o">
     <mxGraphModel dx="875" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,10 +43,12 @@
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-11" value="framewordName: umi&lt;br&gt;configFile: .umirc.ts &amp;amp; config.ts&lt;br&gt;presets: [@umijs/preset-umi]&lt;br&gt;plugins:[plugin.ts]" style="html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="442" width="225" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-18" target="dfm-5kzRMY3-W3S_KdrZ-30">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-18" target="dfm-5kzRMY3-W3S_KdrZ-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="257" y="510" />
+              <mxPoint x="354" y="544" />
+              <mxPoint x="279" y="554" />
+              <mxPoint x="207" y="551" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -56,22 +58,39 @@
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-22" value="packages/core" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="60" y="333" width="154" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-27" value="this.run()" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="705" y="529" width="223.5" height="171" as="geometry">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-27" value="Config" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="322" y="721" width="223.5" height="171" as="geometry">
             <mxRectangle x="64" y="650" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-28" value="ServiceStage.init&#xa;&#xa;afsd" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="dfm-5kzRMY3-W3S_KdrZ-27">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-28" value="getUserConfig()&#xa;getConfig()&#xa;watch()&#xa;static getMainConfigFile()&#xa;        getConfigFiles()&#xa;        getUserConfig()&#xa;        validateConfig()&#xa;        diffConfig()&#xa;        //todo more detailed explanation&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="dfm-5kzRMY3-W3S_KdrZ-27">
           <mxGeometry y="30" width="223.5" height="141" as="geometry" />
         </mxCell>
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-33" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-30" target="dfm-5kzRMY3-W3S_KdrZ-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-30" value="loadEnv()" style="html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="24.5" y="566" width="225" height="129" as="geometry" />
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-30" value="loadEnv()&lt;br&gt;" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="566" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-32" value="[.env, .env.local]&lt;br&gt;.env.local cover .env&lt;br&gt;process.env[k] = v" style="html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="320.5" y="566" width="225" height="129" as="geometry" />
+          <mxGeometry x="320.5" y="557" width="225" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-35" value="this.pkg=require(package.json)" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="649" width="225" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-37" value="this.configManager =&lt;br&gt;configManager(&lt;br&gt;cwd,env,&lt;br&gt;configFile)" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="744" width="225" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-38" value="Plugin.getPluginsAndPresets(&lt;br&gt;{})" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="856" width="225" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-39" value="Plugin core/src/service/plugin" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="321.25" y="923" width="223.5" height="212" as="geometry">
+            <mxRectangle x="64" y="650" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-40" value="constructor(opts){&#xa;    this.id = getId()&#xa;    this.key = getKey()&#xa;    this.apply = () =&gt; {&#xa;        register.register()&#xa;        register.clearFiles()&#xa;        return require(path).__esModule&#xa;    }&#xa;}&#xa;&#xa;static getPluginsAndPresets()&#xa;analysis plugins path return new Plugin()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="dfm-5kzRMY3-W3S_KdrZ-39">
+          <mxGeometry y="30" width="223.5" height="182" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
