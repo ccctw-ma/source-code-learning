@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T15:40:48.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Tiv6i-ra4s6NNf5Y6-MN" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T16:04:26.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="I3RslyvL6-O2xg7kSnnl" version="20.8.20" type="github">
   <diagram name="第 1 页" id="_LmHi21ieHVFVFbyD48o">
-    <mxGraphModel dx="2062" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1702" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-11" target="dfm-5kzRMY3-W3S_KdrZ-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-11" value="framewordName: umi&lt;br&gt;configFile: .umirc.ts &amp;amp; config.ts&lt;br&gt;presets: [@umijs/preset-umi]&lt;br&gt;plugins:[plugin.ts]" style="html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-11" value="framewordName: umi&lt;br&gt;configFile: .umirc.ts &amp;amp; config.ts&lt;br&gt;presets: [&lt;font color=&quot;#ff3333&quot;&gt;@umijs/preset-umi&lt;/font&gt;]&lt;br&gt;plugins:[plugin.ts]" style="html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="442" width="225" height="101" as="geometry" />
         </mxCell>
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-18" target="dfm-5kzRMY3-W3S_KdrZ-30">
@@ -208,7 +208,7 @@
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-87" value="ServiceStage.resolveConfig" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-227" y="1594" width="195" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-91" value="config = this.applyPlugins(modifyConfig)&lt;br&gt;defaultConfig=applyPlugins(modifyDefaultConfig)&lt;br&gt;service.config = merge(config, defaultConfig)" style="html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-91" value="config = this.&lt;b&gt;applyPlugins&lt;/b&gt;(modifyConfig)&lt;br&gt;defaultConfig=&lt;b&gt;applyPlugins&lt;/b&gt;(modifyDefaultConfig)&lt;br&gt;service.config = merge(config, defaultConfig)" style="html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="301" y="1367.5" width="361" height="164" as="geometry" />
         </mxCell>
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-96" value="&lt;b&gt;applyPlugins&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -232,14 +232,50 @@
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-108" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-104" target="dfm-5kzRMY3-W3S_KdrZ-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-104" value="applyPlugins(modifyPaths)" style="html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-104" value="&lt;b&gt;applyPlugins&lt;/b&gt;(modifyPaths)" style="html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="1567" width="225" height="89" as="geometry" />
         </mxCell>
         <mxCell id="dfm-5kzRMY3-W3S_KdrZ-109" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-105" target="dfm-5kzRMY3-W3S_KdrZ-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-105" value="applyPlugins(&lt;br&gt;modifyTelemetryStorage)" style="html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-116" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-105" target="dfm-5kzRMY3-W3S_KdrZ-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-105" value="&lt;b&gt;applyPlugins&lt;/b&gt;(&lt;br&gt;modifyTelemetryStorage)" style="html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="24.5" y="1705" width="225" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-110" value="ServiceStage.onCheck" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="2010.5" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-111" value="ServiceStage.onStart" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="2148.5" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-112" value="ServiceStage.collectAppData" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-253" y="1872.5" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-117" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-113" target="dfm-5kzRMY3-W3S_KdrZ-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-119" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-113" target="dfm-5kzRMY3-W3S_KdrZ-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-113" value="&lt;b&gt;applyPlugins&lt;/b&gt;(&lt;br&gt;modifyAppData)" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="1843" width="225" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-118" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-114" target="dfm-5kzRMY3-W3S_KdrZ-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-120" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-114" target="dfm-5kzRMY3-W3S_KdrZ-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-114" value="&lt;b&gt;applyPlugins&lt;/b&gt;(&lt;br&gt;onCheck)" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="1981" width="225" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-121" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dfm-5kzRMY3-W3S_KdrZ-115" target="dfm-5kzRMY3-W3S_KdrZ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfm-5kzRMY3-W3S_KdrZ-115" value="&lt;b&gt;applyPlugins&lt;/b&gt;(&lt;br&gt;onStart)" style="html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="2119" width="225" height="89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
