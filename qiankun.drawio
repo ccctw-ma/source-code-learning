@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T14:39:30.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZjdsPhc5wRlKfGYLBb96" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T15:53:21.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="W2zGWXBQEq5j3BY9ErBR" version="21.3.7" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
     <mxGraphModel dx="955" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,20 +7,56 @@
         <mxCell id="qpvw24Ly1OFk7KmzRXFD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qpvw24Ly1OFk7KmzRXFD-1" target="qpvw24Ly1OFk7KmzRXFD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qpvw24Ly1OFk7KmzRXFD-1" value="registerMicroApps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-1" value="registerMicroApps(Array&amp;lt;App&amp;gt;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="278" y="60" width="276" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="qpvw24Ly1OFk7KmzRXFD-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qpvw24Ly1OFk7KmzRXFD-2" target="qpvw24Ly1OFk7KmzRXFD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-2" value="filter already registered app" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="654" y="60" width="276" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="qpvw24Ly1OFk7KmzRXFD-4" value="registerMicroApps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="278" y="192" width="276" height="75" as="geometry" />
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-4" value="setDefaultMountApp(url)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="278" y="858" width="276" height="75" as="geometry" />
         </mxCell>
         <mxCell id="qpvw24Ly1OFk7KmzRXFD-5" value="registerMicroApps" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="276" y="-72" width="276" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="qpvw24Ly1OFk7KmzRXFD-6" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="309" y="85" width="60" height="30" as="geometry" />
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-7" value="初始化应用" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="93" y="-49.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-8" value="注册子应用" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="93" y="82.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-9" value="设置默认子应用" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="58" y="880.5" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-10" value="启动应用" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1584.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-11" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;start()&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276" y="1562" width="276" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-12" value="apps.foreach(app=&amp;gt; registerApplication(obj))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="60" width="276" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-14" value="obj = {name, activeWhen, customPorps,&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;app:async()=&amp;gt;{}&lt;/font&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="60" width="276" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-15" value="{mount, configs} = (loadApp(&lt;b&gt;config&lt;/b&gt;))()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="198" width="276" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-16" value="win.addEventListener(&quot;single-spa:no-app-change&quot;, ()=&amp;gt; {&lt;br&gt;getMountedApps()&lt;br&gt;navigateToUrl(url)})" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="697" y="858" width="276" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-17" value="getMountedApps()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="855" width="276" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-18" value="navigateToUrl()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1108" y="975" width="276" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-19" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;frameConfig:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;prefetch: true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;singular: true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sanbox: true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;urlRerouteOnly: true&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1562" width="276" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
