@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T15:59:53.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IPkhgmqje-D3StuXkOyl" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T16:08:26.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KHOccAX3dVd_QZF0MQ8X" version="21.3.7" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
     <mxGraphModel dx="955" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,18 @@
         </mxCell>
         <mxCell id="qpvw24Ly1OFk7KmzRXFD-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;代码及语言， 避免写太多注释&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="693.14" y="1423.57" width="236.86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-23" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;win.el(&#39;single-spa:first-mount&#39;, ()=&amp;gt; prefetch(entry))&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1989" width="276" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qpvw24Ly1OFk7KmzRXFD-24" target="qpvw24Ly1OFk7KmzRXFD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-24" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;requestIdleCallback(()=&amp;gt;{&lt;/div&gt;&lt;div style=&quot;&quot;&gt;js &amp;amp; css = importEntry(entry)})&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="673.57" y="2117" width="276" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="qpvw24Ly1OFk7KmzRXFD-25" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;u&gt;https://github.com/kuitos/import-html-entry&lt;/u&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="344.00000000000006" y="2117" width="276" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
