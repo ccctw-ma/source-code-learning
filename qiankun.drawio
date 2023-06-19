@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T15:37:57.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y2oUBX5TiAiUbCHtI6TH" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T15:38:15.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YDpnjCwY5mWuChS9sCjt" version="21.4.0" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
     <mxGraphModel dx="1486" dy="1630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,14 @@
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-12" value="appsThatChanged, &lt;br&gt;navigationIsCanceled = false,&lt;br&gt;oldUrl = currentUrl,&lt;br&gt;newUrl = currentUrl = win.location.href&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2282" y="-555" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zNaVEItqC5jxtiTF94hB-13" target="zNaVEItqC5jxtiTF94hB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-16" value="loadApps" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zNaVEItqC5jxtiTF94hB-15">
+          <mxGeometry x="-0.2642" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-13" value="appThatChanged = appsToLoad;&lt;br&gt;loadApps()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2282" y="-416" width="232" height="79" as="geometry" />
