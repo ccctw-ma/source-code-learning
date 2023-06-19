@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T15:14:53.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NifuUDM1lOkKMZ778T_E" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T15:37:57.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y2oUBX5TiAiUbCHtI6TH" version="21.4.0" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
-    <mxGraphModel dx="1623" dy="1727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1486" dy="1630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,8 +127,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zNaVEItqC5jxtiTF94hB-5" value="app.push({&lt;br&gt;loadErrortime, status, parcels, devtools&lt;br&gt;, ...registration})" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zNaVEItqC5jxtiTF94hB-5" value="apps.push({&lt;br&gt;loadErrortime, status, parcels, devtools&lt;br&gt;, ...registration})" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1955.33" y="-894" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-9" value="ensureJQurySupport()&lt;br&gt;// but may be do nothing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1952" y="-790" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-10" value="reroute()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1952" y="-686" width="232" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-11" value="{appsToUnload, appsToUnmount,&lt;br&gt;appsToLoad, appsToMount} = getAppChanges()&lt;br&gt;// 根据app.status来生成对应的状态集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2282" y="-686" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-12" value="appsThatChanged, &lt;br&gt;navigationIsCanceled = false,&lt;br&gt;oldUrl = currentUrl,&lt;br&gt;newUrl = currentUrl = win.location.href&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2282" y="-555" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-13" value="appThatChanged = appsToLoad;&lt;br&gt;loadApps()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2282" y="-416" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="zNaVEItqC5jxtiTF94hB-14" value="loadPromises = appsToLoad.map(toLoadPromise)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2282" y="-277" width="232" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
