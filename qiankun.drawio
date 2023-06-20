@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T15:37:47.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-2oJX0xHswfIAHowAt25" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T15:59:49.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qo2r0gG0ha1ZftrDW3wf" version="21.5.0" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
-    <mxGraphModel dx="1509" dy="2816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="2896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,7 +183,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-13" value="appThatChanged = appsToLoad;&lt;br&gt;loadApps()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2282" y="-346" width="232" height="79" as="geometry" />
+          <mxGeometry x="2282" y="-310" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zNaVEItqC5jxtiTF94hB-14" target="zNaVEItqC5jxtiTF94hB-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -192,7 +192,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-14" value="loadPromises: Promise[] = appsToLoad.map(toLoadPromise)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2282" y="-207" width="232" height="79" as="geometry" />
+          <mxGeometry x="2282" y="-171" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zNaVEItqC5jxtiTF94hB-19" target="zNaVEItqC5jxtiTF94hB-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -203,13 +203,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-19" value="return Promise.resolve().then(()=&amp;gt;{ _ })" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2623" y="-207" width="232" height="79" as="geometry" />
+          <mxGeometry x="2623" y="-171" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zNaVEItqC5jxtiTF94hB-20" target="zNaVEItqC5jxtiTF94hB-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-20" value="loadPromise = app.loadApp()&lt;br&gt;// 等价于&amp;nbsp;&amp;nbsp;import (&#39;../app1/app1.js&#39;)&lt;br&gt;// 返回的是一个Promise" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2623" y="-85" width="232" height="79" as="geometry" />
+          <mxGeometry x="2623" y="-49" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zNaVEItqC5jxtiTF94hB-23" target="zNaVEItqC5jxtiTF94hB-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -220,13 +220,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-23" value="// 这里appOpts就是一个app.js&lt;br&gt;loadPromise.then((val)=&amp;gt;{&lt;br&gt;appOpts = val&lt;br&gt;app.status = NOT_BOOTSTRAPPED&lt;br&gt;app.bootstrap = flattenFnArray(appOpts, &quot;bootstrap&quot;)&lt;br&gt;app.mount = flattenFnArray(appOpts, &quot;mount&quot;)&lt;br&gt;app.unmount = flattenFnArray(appOpts, &quot;unmount&amp;nbsp;&quot;)&lt;br&gt;app.unload= flattenFnArray(appOpts, &quot;unload&quot;)&lt;br&gt;})&lt;br&gt;return app" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2588.5" y="31" width="301" height="160" as="geometry" />
+          <mxGeometry x="2588.5" y="67" width="301" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-24" value="fns = app[&#39;lifecycle&#39;] as Array&lt;br&gt;return (props)=&amp;gt;fns.reduce((fn=&amp;gt;fn(props), Promise.resolve()))&lt;br&gt;// 就是返回一个函数，这个函数会以promise.then连续的方式执行fn(props)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3022" y="71.5" width="232" height="79" as="geometry" />
+          <mxGeometry x="3022" y="107.5" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="zNaVEItqC5jxtiTF94hB-29" value="Promise.all(loadPromises) 会返回一个处理好的app数组" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2282" y="-73" width="232" height="79" as="geometry" />
+          <mxGeometry x="2282" y="-37" width="232" height="79" as="geometry" />
         </mxCell>
         <mxCell id="uPz1VfvKWU891UvYiixC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPz1VfvKWU891UvYiixC-9" target="zNaVEItqC5jxtiTF94hB-10">
           <mxGeometry relative="1" as="geometry" />
@@ -260,6 +260,9 @@
         </mxCell>
         <mxCell id="uPz1VfvKWU891UvYiixC-17" value="appChangeUnderway = true&lt;br&gt;appsThatChanged = [...appToUnload,&lt;br&gt;...appsToLoad, ...appToUnmount, ...appsToMount]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1955.33" y="-458.5" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="uPz1VfvKWU891UvYiixC-21" value="return performAppChanges()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1955" y="-310" width="232" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
