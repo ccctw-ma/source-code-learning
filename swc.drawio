@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T16:05:17.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UmJvoFXKwzCqnr1sMCqs" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-09T08:39:36.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RpY9xpkw2EnIx8x6dK6N" version="21.6.1" type="github">
   <diagram name="第 1 页" id="vicb9nob8JcBcUOfZWf1">
-    <mxGraphModel dx="955" dy="669" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="555" dy="669" grid="0" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_YY484bC7Gj4B44uen5N-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="122" width="120" height="60" as="geometry" />
+        <mxCell id="_YY484bC7Gj4B44uen5N-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;swc.transformSync(src, options)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="519" y="212" width="311" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tv0lrHKJMZ2K0MkYr-PI-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;bindings // 就是swc-rs可执行程序&lt;br&gt;isModule = typeof src !== &quot;string&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="355" width="311" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tv0lrHKJMZ2K0MkYr-PI-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;return bindings.transformSync(src:str,&lt;br&gt;isModule, toBuffer(options))&lt;br&gt;// 将option转换为buffer便于rust读取&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="503" width="311" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
