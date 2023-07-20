@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T15:45:03.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ke81m6sheuKS0j929nFK" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T15:51:23.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KdSsTGE5ct5tkeUoMSFf" version="21.6.2" type="github">
   <diagram name="第 1 页" id="rgWpA4yWHTPzdy8tJbft">
     <mxGraphModel dx="1782" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="JNPgKxoSRgwMOq8pccgN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-30" target="JNPgKxoSRgwMOq8pccgN-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-38" value="useStore" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNPgKxoSRgwMOq8pccgN-37">
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;useStore&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNPgKxoSRgwMOq8pccgN-37">
           <mxGeometry x="0.048" y="-3" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -108,14 +108,26 @@
         <mxCell id="JNPgKxoSRgwMOq8pccgN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-31" target="JNPgKxoSRgwMOq8pccgN-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-31" value="Object.assign(useBound, api)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-31" value="Object.assign(useBoundStore, api)&lt;br&gt;// useBoundStore是一个函数，给这个函数添加一些字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.25" y="693" width="292" height="65" as="geometry" />
         </mxCell>
         <mxCell id="JNPgKxoSRgwMOq8pccgN-32" value="return useBoundStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.25" y="823" width="292" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-36" value="&amp;nbsp;&lt;b&gt;useBoundStore &lt;/b&gt;= (selector, equalityFn) =&amp;gt;&amp;nbsp;&lt;br&gt;&lt;b&gt;useStore&lt;/b&gt;(api, selector, equalityFn)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-136" y="563" width="292" height="65" as="geometry" />
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-36" target="JNPgKxoSRgwMOq8pccgN-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-36" value="slice = useSyncExternalStroeWithSelector(&lt;br&gt;api.subscribe,&lt;br&gt;api.getState,&lt;br&gt;ap.getServerState || api.getState,&lt;br&gt;selector.&lt;br&gt;equalityFn)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="531.5" width="292" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-41" target="JNPgKxoSRgwMOq8pccgN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-41" value="useDebugValue(slice)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="693" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-42" value="return slice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="823" width="292" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
