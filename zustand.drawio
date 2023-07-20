@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T15:34:24.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FRdJ024sWwZkmvp8krZ9" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T15:43:44.265Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wv9_wjSPiKuXeLvbtJSG" version="21.6.2" type="github">
   <diagram name="第 1 页" id="rgWpA4yWHTPzdy8tJbft">
-    <mxGraphModel dx="796" dy="1727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1124" dy="1956" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-2" value="api = createState is function ? createStore(createState) : createState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-2" target="JNPgKxoSRgwMOq8pccgN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-2" value="&lt;b&gt;api &lt;/b&gt;= createState is function ? createStore(createState) : createState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.25" y="433" width="292" height="65" as="geometry" />
         </mxCell>
         <mxCell id="JNPgKxoSRgwMOq8pccgN-6" value="&lt;code class=&quot;inline text-code text-secondary dark:text-secondary-dark px-1 rounded-md no-underline bg-gray-30 bg-opacity-10 py-px&quot; style=&quot;box-sizing: border-box; border: 0px solid rgb(229, 231, 235); --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-family: &amp;quot;Source Code Pro&amp;quot;, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: calc(1em - 20%); display: inline; border-radius: 0.375rem; --tw-bg-opacity: 0.1; background-color: rgb(153 161 179/var(--tw-bg-opacity)); padding: 1px 0.25rem; --tw-text-opacity: 1; color: rgb(64 71 86/var(--tw-text-opacity)); text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;useSyncExternalStore&lt;/code&gt;&lt;span style=&quot;color: rgb(35, 39, 47); font-family: &amp;quot;Optimistic Display&amp;quot;, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt; is a React Hook that lets you subscribe to an external store.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -49,11 +52,59 @@
         <mxCell id="JNPgKxoSRgwMOq8pccgN-10" value="createState = (set)=&amp;gt; ({&lt;br&gt;count: 1,&lt;br&gt;inc: () =&amp;gt; set(p=&amp;gt; ({count: p.count&amp;nbsp; + 1}))&lt;br&gt;&amp;nbsp;})" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="737" y="207" width="232.95" height="77.83" as="geometry" />
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-11" value="let state;&lt;br&gt;const listeners = new Set()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-11" target="JNPgKxoSRgwMOq8pccgN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-11" value="let &lt;b&gt;state&lt;/b&gt;;&lt;br&gt;const &lt;b&gt;listeners &lt;/b&gt;= new Set()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="702" y="563" width="292" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JNPgKxoSRgwMOq8pccgN-14" value="const &lt;b&gt;setState&lt;/b&gt; = (partial) =&amp;gt;&amp;nbsp;&lt;br&gt;const nextState = partial is fun ?&amp;nbsp;partial(state) : partial&lt;br&gt;if(nextState !== state){&lt;br&gt;preState = state&lt;br&gt;state = nextState is Object ?&lt;br&gt;&amp;nbsp;{...state, nextState} : nextState&lt;br&gt;listeners.forEach(fn=&amp;gt;fn(state, preState))&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-14" target="JNPgKxoSRgwMOq8pccgN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-14" value="const &lt;b&gt;setState&lt;/b&gt; = (partial) =&amp;gt;&amp;nbsp;&lt;br&gt;const nextState = partial is fun ?&amp;nbsp;partial(state) : partial&lt;br&gt;if(nextState !== state){&lt;br&gt;preState = state&lt;br&gt;state = nextState is Object ?&lt;br&gt;&amp;nbsp;{...state, nextState} : nextState&lt;br&gt;&lt;b&gt;listeners&lt;/b&gt;.forEach(fn=&amp;gt;fn(state, preState))&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="702" y="665" width="292" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-20" target="JNPgKxoSRgwMOq8pccgN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-20" value="const &lt;b&gt;getState &lt;/b&gt;= () =&amp;gt; state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="870" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-21" target="JNPgKxoSRgwMOq8pccgN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-21" value="const &lt;b&gt;subscribe &lt;/b&gt;= (fn) =&amp;gt;&amp;nbsp;&lt;br&gt;&lt;b&gt;listeners&lt;/b&gt;.add(fn)&lt;br&gt;// Unsubscribe&lt;br&gt;return () =&amp;gt; listeners.delete(fn)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="972" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-24" target="JNPgKxoSRgwMOq8pccgN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-24" value="const &lt;b&gt;api &lt;/b&gt;= {setState, getState, subscribe, destroy}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="1074" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-26" target="JNPgKxoSRgwMOq8pccgN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-26" value="state = createState(setState, getState, api)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="1176" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-27" value="return api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="1278" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-30" target="JNPgKxoSRgwMOq8pccgN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-30" value="&amp;nbsp;&lt;b&gt;useBoundStore &lt;/b&gt;= (selector, equalityFn) =&amp;gt;&amp;nbsp;&lt;br&gt;useStore(api, selector, equalityFn)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.25" y="563" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNPgKxoSRgwMOq8pccgN-31" target="JNPgKxoSRgwMOq8pccgN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-31" value="Object.assign(useBound, api)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.25" y="693" width="292" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JNPgKxoSRgwMOq8pccgN-32" value="return useBoundStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.25" y="823" width="292" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
