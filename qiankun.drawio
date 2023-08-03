@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T14:58:54.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="32R6RbUQRbTjnYVPPeeb" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:30:59.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-3HNpSDjHepi7ecFJQ3F" version="21.3.8" type="github">
   <diagram name="第 1 页" id="wMC1tLCu1T7hPcdTSp6K">
-    <mxGraphModel dx="1406" dy="2743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1514" dy="2734" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,24 +258,30 @@
         <mxCell id="uPz1VfvKWU891UvYiixC-11" value="started?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2333" y="-459" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xsigYAgAY-47qy6Qu4ac-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPz1VfvKWU891UvYiixC-17" target="uPz1VfvKWU891UvYiixC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uPz1VfvKWU891UvYiixC-17" value="appChangeUnderway = true&lt;br&gt;appsThatChanged = [...appToUnload,&lt;br&gt;...appsToLoad, ...appToUnmount, ...appsToMount]" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1955.33" y="-458.5" width="232" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="xsigYAgAY-47qy6Qu4ac-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPz1VfvKWU891UvYiixC-21" target="ZKEIVLvc4E13eeT-Fa_A-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uPz1VfvKWU891UvYiixC-21" value="return performAppChanges()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1955" y="-310" width="232" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKEIVLvc4E13eeT-Fa_A-1" target="ZKEIVLvc4E13eeT-Fa_A-2">
+        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZKEIVLvc4E13eeT-Fa_A-1" target="ZKEIVLvc4E13eeT-Fa_A-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-4" value="getCustomEventDetail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZKEIVLvc4E13eeT-Fa_A-3">
+        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-4" value="getCustomEventDetail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZKEIVLvc4E13eeT-Fa_A-3" vertex="1" connectable="0">
           <mxGeometry x="0.1993" y="2" relative="1" as="geometry">
             <mxPoint x="23" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-1" value="window.dispatchEvent(&lt;br&gt;new CustomEvent(&quot;&quot;), getCustomEventDetail(true))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-1" value="window.dispatchEvent(&lt;br&gt;new CustomEvent(&quot;&quot;), getCustomEventDetail(true))" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1955" y="-171" width="232" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-2" value="return {detail:{&lt;br&gt;newAppStatus, appsByNewStatus,&lt;br&gt;oldUrl, newUrl, navigationIsCanceled}}&lt;br&gt;// 也就是当前状态的app集合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZKEIVLvc4E13eeT-Fa_A-2" value="return {detail:{&lt;br&gt;newAppStatus, appsByNewStatus,&lt;br&gt;oldUrl, newUrl, navigationIsCanceled}}&lt;br&gt;// 也就是当前状态的app集合" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1545" y="-171" width="232" height="79" as="geometry" />
         </mxCell>
       </root>
