@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T15:11:57.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="WHqIevpg4n8ugLZwPdRt" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T16:19:07.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1hYqOMTSTE230xKRnIps" version="22.0.4" type="github">
   <diagram id="SnlP8aB4mq49MQ1ISu1l" name="第 1 页">
-    <mxGraphModel dx="1005" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,18 +214,18 @@
         <mxCell id="kkMpHsS_UefIYtiD62sO-69" value="ReactDomRoot.prototype.unmount()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1450" width="422.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bY2nGD-LoHnBz6BL57WT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BmQ1pW9x3FN8QW75fkv-1" target="3BmQ1pW9x3FN8QW75fkv-3">
+        <mxCell id="bY2nGD-LoHnBz6BL57WT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BmQ1pW9x3FN8QW75fkv-1" target="3BmQ1pW9x3FN8QW75fkv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-1" value="root.render(children)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="50" y="1770" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bY2nGD-LoHnBz6BL57WT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3BmQ1pW9x3FN8QW75fkv-3" target="3BmQ1pW9x3FN8QW75fkv-7">
+        <mxCell id="bY2nGD-LoHnBz6BL57WT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3BmQ1pW9x3FN8QW75fkv-3" target="3BmQ1pW9x3FN8QW75fkv-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="1795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bY2nGD-LoHnBz6BL57WT-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;updateContianer&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bY2nGD-LoHnBz6BL57WT-2">
+        <mxCell id="bY2nGD-LoHnBz6BL57WT-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;updateContianer&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bY2nGD-LoHnBz6BL57WT-2" vertex="1" connectable="0">
           <mxGeometry x="0.0188" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -242,8 +242,8 @@
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-9" value="lane = requestUpdateLane(current:Fiber)&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="711.25" y="1890" width="420" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3BmQ1pW9x3FN8QW75fkv-10" value="lane = requestUpdateLane(current:Fiber)&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1194" y="1930" width="420" height="50" as="geometry" />
+        <mxCell id="3BmQ1pW9x3FN8QW75fkv-10" value="返回这个Fiber的lane即优先级" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1890" width="420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-11" value="context = getContextForSubtree(null) = {}" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="711.25" y="2010" width="420" height="50" as="geometry" />
@@ -287,10 +287,10 @@
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-27" value="concurrent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="2150" y="2740" width="420" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bY2nGD-LoHnBz6BL57WT-4" value="scheduleUpdateOnFiber(root, current, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="bY2nGD-LoHnBz6BL57WT-4" value="scheduleUpdateOnFiber(root, current, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="710" y="2490" width="420" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bY2nGD-LoHnBz6BL57WT-5" value="entangleTransitions(root, current, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="bY2nGD-LoHnBz6BL57WT-5" value="entangleTransitions(root, current, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="710" y="2610" width="420" height="50" as="geometry" />
         </mxCell>
       </root>
