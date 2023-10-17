@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T13:55:05.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="P9O--ThqjA4X3eYFpNoZ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T13:55:32.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0yFWFU7VVo5ifGe4qb2w" version="22.0.4" type="github">
   <diagram id="SnlP8aB4mq49MQ1ISu1l" name="第 1 页">
     <mxGraphModel dx="1061" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -317,8 +317,14 @@
         <mxCell id="Yj-_gbK3PEXQWx5ygzC0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BmQ1pW9x3FN8QW75fkv-25" target="Yj-_gbK3PEXQWx5ygzC0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Yj-_gbK3PEXQWx5ygzC0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BmQ1pW9x3FN8QW75fkv-25" target="3BmQ1pW9x3FN8QW75fkv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-25" value="enqueueUpdate(fiber, concurrentQueue:sharedQueue,&lt;br&gt;concurrentUpdate:update, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1712" y="2650" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj-_gbK3PEXQWx5ygzC0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BmQ1pW9x3FN8QW75fkv-26" target="Yj-_gbK3PEXQWx5ygzC0-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BmQ1pW9x3FN8QW75fkv-26" value="enqueueUpdate(fiber, concurrentQueue:sharedQueue,&lt;br&gt;concurrentUpdate:update, lane)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="2360" y="2650" width="420" height="50" as="geometry" />
@@ -338,8 +344,14 @@
         <mxCell id="Yj-_gbK3PEXQWx5ygzC0-6" value="return getRootForUpdateFiber(fiber)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1712" y="2830" width="420" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Yj-_gbK3PEXQWx5ygzC0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yj-_gbK3PEXQWx5ygzC0-8" target="Yj-_gbK3PEXQWx5ygzC0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Yj-_gbK3PEXQWx5ygzC0-8" value="concurrentQueues[idx..idx+4] = [fiber,queue, update,lane]&lt;br&gt;idx+=4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2360" y="2770" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj-_gbK3PEXQWx5ygzC0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yj-_gbK3PEXQWx5ygzC0-9" target="Yj-_gbK3PEXQWx5ygzC0-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yj-_gbK3PEXQWx5ygzC0-9" value="&lt;b&gt;concurrentlyUpdatedLanes &lt;/b&gt;= mergeLanes(&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;concurrentlyUpdatedLanes, &lt;/b&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;lane&lt;/span&gt;)&lt;br&gt;// just (a, b)=&amp;gt; a | b" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2360" y="2900" width="420" height="80" as="geometry" />
